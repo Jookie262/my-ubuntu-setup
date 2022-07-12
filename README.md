@@ -5,14 +5,14 @@ I've always wanted to use Linux as my main operating system since I was fascinat
 ## Quick Look
 Here are some screenshots of what my ubuntu environment looks like. 
 
-<img src="screenshots/desktop.png" width="450">
-<img src="screenshots/applications.png" width="450">
-<img src="screenshots/files.png" width="450">
-<img src="screenshots/chrome.png" width="450">
-<img src="screenshots/terminal.png" width="450">
-<img src="screenshots/terminal2.png" width="450">
-<img src="screenshots/vscode1.png" width="450">
-<img src="screenshots/vscode2.png" width="450">
+<img src="screenshots/desktop.png" width="400">
+<img src="screenshots/applications.png" width="400">
+<img src="screenshots/files.png" width="400">
+<img src="screenshots/chrome.png" width="400">
+<img src="screenshots/terminal.png" width="400">
+<img src="screenshots/terminal2.png" width="400">
+<img src="screenshots/vscode1.png" width="400">
+<img src="screenshots/vscode2.png" width="400">
 
 ## List of Applications
 The list consists of applications that I installed
