@@ -2,6 +2,18 @@
 
 I've always wanted to use Linux as my main operating system since I was fascinated by the idea of open source and it is also a fantastic learning experience as an IT student. I also intended it to use as my programming environment. So this is how I built up my very own programming environment in Ubuntu 20.04.
 
+## Quick Look
+Here are some screenshots of what my ubuntu environment looks like. 
+
+<img src="screenshots/desktop.png" width="450">
+<img src="screenshots/applications.png" width="450">
+<img src="screenshots/files.png" width="450">
+<img src="screenshots/chrome.png" width="450">
+<img src="screenshots/terminal.png" width="450">
+<img src="screenshots/terminal2.png" width="450">
+<img src="screenshots/vscode1.png" width="450">
+<img src="screenshots/vscode2.png" width="450">
+
 ## List of Applications
 The list consists of applications that I installed
 - Google Chrome
