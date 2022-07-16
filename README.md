@@ -25,6 +25,7 @@ The list consists of applications that I installed
 - Free Download Manager
 - Filezilla
 - Vim
+- Anydesk
 
 ## List of Customizations
 The list consists of the tools, wallpapers, fonts, extensions, and themes I used to customize my environment.
