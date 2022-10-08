@@ -5,7 +5,7 @@
 # Needed Package upon running the setup.sh
 initPackages(){
 	installPackage figlet
- 	installLolcat	
+	installLolcat	
 }
 
 # Print the header design
@@ -13,8 +13,8 @@ header () {
   clear
   figlet -f Standard " Ubuntu Setup  " | lolcat
   echo -e "    Created a simple installer to automate downloading of\n            my applications and customizations\n" | lolcat
-  echo -e "    Created By    : Jookie262" | lolcat
-  echo -e "    Github        : https://github.com/Jookie262/my-ubuntu-setup" | lolcat 
+  echo "    Created By    : Jookie262" | lolcat
+  echo "    Github        : https://github.com/Jookie262/my-ubuntu-setup" | lolcat 
 }
 
 # Checks if a certain package is installed
@@ -50,6 +50,21 @@ installLolcat(){
   fi
 }
 
+# Options for Applications
+listApplication() {
+  echo ""
+  echo "  =================== List of Applications ===================="
+  echo "  [1] Google Chrome                                         Yes"
+  echo "  [2] Gnome-Tweak                                           Yes"
+  echo "  [3] Visual Studio Code                                    Yes"
+  echo "  [4] VLC                                                   Yes" 
+  echo "  [5] Free Download Manager                                 Yes" 
+  echo "  [6] Filezilla                                             Yes" 
+  echo "  [7] Vim                                                   Yes" 
+  echo "  [8] Anydesk                                               Yes" 
+  echo "  =============================================================" 
+}
+
 # Ask user to select repeatedly until the user enters letter N
 selectOptions() {
   echo ""
@@ -57,7 +72,7 @@ selectOptions() {
   do
     read -p "  Select: " ans
     
-    if [[ $ans == "N" ]] || [[ $ans == "n" ]]; then
+    if [ $ans == "N" ]; then
       return 1
     fi
 
@@ -71,13 +86,16 @@ selectOptions() {
 # ====================== Start of Main ====================== # 
 
 # Update Repositories
-sudo apt update -y
+# sudo apt update -y
 
 # Call method that installs the needed packages
 initPackages
 
 # Call header function
 header
+
+# List All Applications
+listApplication
 
 # Call the selectOptions function
 selectOptions
